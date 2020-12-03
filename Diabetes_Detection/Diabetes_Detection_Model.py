@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -164,14 +158,3 @@ print("Accuracy on test set: {}%".format(score))
 
 # Classification Report
 print(classification_report(y_test, y_pred))
-
-# Creating a pickle file for the classifier
-filename = 'diabetes-prediction-model.pkl'
-pickle.dump(classifier, open(filename, 'wb'))
-
-
-# In[ ]:
-
-
-
-
